@@ -192,7 +192,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/profies.md
+  - _pages/profiles.md
   - _pages/teaching.md
   - _pages/blog.md
 keep_files:
@@ -267,8 +267,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Shin]
+  first_name: [Jaeyong]
 
   style: apa
   locale: en
