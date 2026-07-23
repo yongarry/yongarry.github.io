@@ -1,9 +1,19 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
 <div class="publications">
+
+{% assign sections = "journal,preprint,conference" | split: "," %}
+{% assign section_names = "Journal,Preprints,Conference Papers" | split: "," %}
+
+{% for section in sections %}
+{% assign entries = site.data.publications[section] %}
+{% if entries and entries.size > 0 %}
+
+<h4 style="margin: 15px 0px -10px;">{{ section_names[forloop.index0] }}</h4>
+
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in entries %}
 
 <li>
 <div class="pub-row">
@@ -48,4 +58,8 @@
 {% endfor %}
 
 </ol>
+
+{% endif %}
+{% endfor %}
+
 </div>

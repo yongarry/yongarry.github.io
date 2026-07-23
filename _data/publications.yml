@@ -1,22 +1,77 @@
-main:
+journal:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Learning Footstep Constrained Policies Guided by Linear Inverted Pendulum Model for Humanoid Robots"
+    authors: <strong>Jaeyong Shin*</strong>, Woohyun Cha*, Jaeheung Park (*Equal contribution)
+    conference_short: IEEE Access
+    conference: <strong>IEEE Access</strong>, 2026. (Accepted)
+    image: ./assets/img/access_framework.png
+    page: https://yongarry.github.io/lipm-guided-footstep-constrained-policies/
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "SNU-Avatar Haptic Arm: A Hybrid QDD/DD Operator Interface for Teleoperation"
+    authors: Eunho Sung, Seungbin You, <strong>Jaeyong Shin</strong>, et al., Jaeheung Park
+    conference_short: IEEE Access
+    conference: <strong>IEEE Access</strong>, vol. 14, pp. 57409&ndash;57426, 2026.
+    image: ./assets/img/haptic.png
+    pdf: https://doi.org/10.1109/ACCESS.2026.3683430
+
+  - title: "Intuitive and Interactive Robotic Avatar System for Tele-Existence: Team SNU in the ANA Avatar XPRIZE Finals"
+    authors: Beomyeong Park, Donghyeon Kim, Daegyu Lim, ..., <strong>Jaeyong Shin</strong>, et al.
+    conference_short: ISR
+    conference: <strong>International Journal of Social Robotics</strong>, vol. 17, no. 3, pp. 379&ndash;407, 2025.
+    image: ./assets/img/avatar.png
+    pdf: https://link.springer.com/article/10.1007/s12369-024-01152-y
+
+  - title: "Advances in Humanoid Robot Walking Technologies: A Review"
+    authors: Myeong-Ju Kim, Daegyu Lim, Donghyeon Kim, Junhyeok Cha, <strong>Jaeyong Shin</strong>, Woohyun Cha, Gyeongjae Park, Kwanwoo Lee, Jaeheung Park
+    conference_short: ICROS
+    conference: <strong>Journal of Institute of Control, Robotics and Systems</strong>, vol. 30, no. 4, pp. 412&ndash;422, 2024.
+    pdf: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11745359
+    image: ./assets/img/icros.png
+
+
+preprint:
+
+  - title: "Spectral Normalization for Lipschitz-Constrained Policies on Learning Humanoid Locomotion"
+    authors: <strong>Jaeyong Shin</strong>, Woohyun Cha, Donghyeon Kim, Junhyeok Cha, Jaeheung Park
+    conference_short: arXiv
+    conference: <em>arXiv</em>, 2025.
+    pdf: https://arxiv.org/abs/2504.08246
+    page: https://yongarry.github.io/spectral-normalization-lcp/
+    image: ./assets/img/sn-lcp.png
+
+  - title: "Sim-to-Real of Humanoid Locomotion Policies via Joint Torque Space Perturbation Injection"
+    authors: Junhyeok Cha, Woohyun Cha, <strong>Jaeyong Shin</strong>, Donghyeon Kim, Jaeheung Park
+    conference_short: arXiv
+    conference: <em>arXiv</em>, 2025.
+    pdf: https://arxiv.org/abs/2504.06585
+    image: ./assets/img/erfi.png
+
+conference:
+
+  - title: "Virtual Reality Based Intuitive Spatial Visual Interface for Avatar Robot System"
+    authors: <strong>Jaeyong Shin</strong>, Junewhee Ahn, Suhan Park, et al.
+    conference_short: ICCAS
+    conference: 23rd International Conference on Control, Automation and Systems <strong>(ICCAS)</strong>, 2023.
+    pdf: https://doi.org/10.23919/ICCAS59377.2023.10317028
+    image: ./assets/img/iccas.png
+
+  - title: "Foot-Operated Telelocomotion Interface for Avatar Robots Utilizing Mecanum Wheel-Based Mobile Platforms"
+    authors: Hokyun Lee, Gyeongjae Park, <strong>Jaeyong Shin</strong>, Beomyeong Park, Jaeheung Park
+    conference_short: ICCAS
+    conference: 23rd International Conference on Control, Automation and Systems <strong>(ICCAS)</strong>, 2023.
+    pdf: https://doi.org/10.23919/ICCAS59377.2023.10316999
+    image: ./assets/img/iccas_hk.png
+
+  - title: "Analysis of Effects of Leg Inertia Distribution on Contact Stability and Dynamic Performance During Bipedal Walking"
+    authors: Junhyung Kim, Beomyeong Park, <strong>Jaeyong Shin</strong>, Jaeheung Park
+    conference_short: Humanoids
+    conference: IEEE-RAS 21st International Conference on Humanoid Robots <strong>(Humanoids)</strong>, 2022.
+    pdf: https://doi.org/10.1109/Humanoids53995.2022.10000082
+    image: ./assets/img/humanoid.png
+
+  - title: "Stereoscopic Low-Latency Vision System via Ethernet Network for Humanoid Teleoperation"
+    authors: <strong>Jaeyong Shin</strong>, Junewhee Ahn, Jaeheung Park
+    conference_short: UR
+    conference: 19th International Conference on Ubiquitous Robots <strong>(UR)</strong>, 2022.
+    pdf: https://doi.org/10.1109/UR55393.2022.9826285
+    image: ./assets/img/ur.png
