@@ -15,5 +15,4 @@ My research focuses on making humanoid robots walk reliably in the real world. I
 - **Humanoid Robotics:** bipedal walking, whole-body control, teleoperation and avatar systems
 
 {% include_relative _includes/publications.md %}
-
 {% include_relative _includes/projects.md %}
