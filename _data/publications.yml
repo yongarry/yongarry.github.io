@@ -3,8 +3,9 @@ journal:
   - title: "Learning Footstep Constrained Policies Guided by Linear Inverted Pendulum Model for Humanoid Robots"
     authors: <strong>Jaeyong Shin*</strong>, Woohyun Cha*, Jaeheung Park (*Equal contribution)
     conference_short: IEEE Access
-    conference: <strong>IEEE Access</strong>, 2026. (Accepted)
+    conference: <strong>IEEE Access</strong>, vol. 14, pp. 118464&ndash;118474, 2026.
     image: ./assets/img/access_framework.png
+    pdf: https://doi.org/10.1109/ACCESS.2026.3716627
     page: https://yongarry.github.io/lipm-guided-footstep-constrained-policies/
 
   - title: "SNU-Avatar Haptic Arm: A Hybrid QDD/DD Operator Interface for Teleoperation"
